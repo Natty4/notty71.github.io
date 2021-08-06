@@ -1,4 +1,4 @@
-# Personal website By Natnael
+# Personal website
 ## [find it on Github](https://notty71.github.io)
 Personal Webasite ASTU 2021
 js, css, HTML5 
