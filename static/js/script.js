@@ -197,7 +197,7 @@ function scrollpage() {
       if(i>=Height){  status=1; } 
     } else {
       i=i-5;
-      if(i<=1){ status=0; }
+//       if(i<=1){ status=0; }
     }
   setTimeout( f, 100 );
   }f();
