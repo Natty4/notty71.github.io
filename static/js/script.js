@@ -198,6 +198,8 @@ function scrollpage() {
     } else {
 //       i=i-5;
 //       if(i<=1){ status=0; }
+        clearInterval(scrollerID);
+        console.log('else');
     }
   setTimeout( f, 100 );
   }f();
