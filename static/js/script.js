@@ -196,9 +196,9 @@ function scrollpage() {
         i=i+5;
       if(i>=Height){  status=1; } 
     } else {
-//       i=i-5;
-//       if(i<=1){ status=0; }
-        clearInterval(scrollerID);
+      i=i-5;
+      if(i<=1){ status=0; }
+        stopScroll();
         console.log('else');
     }
   setTimeout( f, 100 );
