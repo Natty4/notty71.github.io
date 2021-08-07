@@ -199,7 +199,7 @@ function scrollpage() {
       i=i-5;
       if(i<=1){ status=0; }
         stopScroll();
-        console.log('else');
+        window.scrollTo(0,0);
     }
   setTimeout( f, 100 );
   }f();
