@@ -152,7 +152,7 @@ for(let j=0; j<len; j++) {
 
 
     txt[i].style.display = 'none';
-    console.log('blob')
+   
 
     i++
 
