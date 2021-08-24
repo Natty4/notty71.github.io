@@ -1,4 +1,5 @@
 
+
 const showMenu = (toggleId, navId) =>{
     const toggle = document.getElementById(toggleId),
     nav = document.getElementById(navId)
@@ -152,7 +153,7 @@ for(let j=0; j<len; j++) {
 
 
     txt[i].style.display = 'none';
-   
+    console.log('blob')
 
     i++
 
@@ -161,7 +162,7 @@ for(let j=0; j<len; j++) {
 
   }, 5000)
 
-
+}
 
 let paused = true;
 function pageScroll() {
