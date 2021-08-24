@@ -79,7 +79,7 @@ body{
 
 
   --first-color: lightslategray;
-  --second-color: #476857;
+  --second-color: #082032;
   --lightgrey:#DBDBDB;
   --color-1: rgb(196, 220, 241);
   --color-2: white;
@@ -1471,7 +1471,7 @@ img:hover{
 body[data-theme="light"] {
 
   --first-color: lightslategray;
-  --second-color: #476857;
+  --second-color: #082032;
   --lightgrey:#DBDBDB;
   --color-1: rgb(196, 220, 241);
   --color-2: white;
@@ -1480,7 +1480,7 @@ body[data-theme="light"] {
 body[data-theme="dark"] {
   --first-color: radial-gradient(var(whitesmoke), black);
   --second-color: whitesmoke;
-  --lightgrey: lightgrey;
+  --lightgrey: #334756
   --white: #c0c0c0;
   --color-1: #1e1f26;
   --color-2: #292c33;
