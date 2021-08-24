@@ -161,52 +161,32 @@ for(let j=0; j<len; j++) {
 
   }, 5000)
 
-}
 
-let scrollerID;
+
 let paused = true;
-let speed = 1; 
-let interval = speed * 5;
-
-function stopScroll() {
-    clearInterval(scrollerID);
+function pageScroll() {
+      window.scrollBy(0,20);
+      scrolldelay = setTimeout('pageScroll()',200); 
 }
+function stopScroll() {
+  clearTimeout(scrolldelay);
+  }
 
 document.body.addEventListener('keypress', function (event)
 {
     if (event.which == 13 || event.keyCode == 13) {
+        // It's the value of 'Enter' key
         if(paused == true) {
-//             scrollerID = scrollpage();
-//             paused = false;
-            document.querySelector('.starter').style.display = 'none';
+            pageScroll()
+            paused = false;
+            document.querySelector('#starter').style.display = 'none';
         }
         else {
-            stopScroll();
+            stopScroll()
             paused = true;
         }
     }
 }, true);
-
-
-function scrollpage() {   
-  function f() 
-  {
-    window.scrollTo(0,i);
-    if(status==0) {
-        i=i+5;
-      if(i>=Height){  status=1; } 
-    } else {
-      i=i-5;
-      if(i<=1){ status=0; }
-        stopScroll();
-        window.scrollTo(0,0);
-    }
-  setTimeout( f, 100 );
-  }f();
-}
-var Height=document.documentElement.scrollHeight;
-var i=1,j=Height,status=0;
-scrollpage();
 
 
 const input = document.querySelector(".theme-switcher input");
