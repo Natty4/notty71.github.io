@@ -541,7 +541,7 @@ img:hover{
   transition: all 2s ease-in-out;
 }
 .banner-cont .ban-propic:hover{
-  background: url('../img/natty-2.jpg'); 
+  background: url('../img/natty-2.png'); 
 }
 .banner-cont .ban-txt{
   margin-top: 10%; 
