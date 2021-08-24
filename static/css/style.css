@@ -407,10 +407,21 @@ img:hover{
   position: relative;
   color: aliceblue;
   text-align: center;
-  top: 35%;
+/*  top: 35%;*/
   font-weight: bold;
   transition: all 1s;
-  animation: glow 5s infinite;
+  animation: glow 7s infinite;
+}
+.starter div{
+  text-align: center;
+  background-color:lightslategray;
+  border-radius: 5px;
+  position: relative;
+  top: 35%;
+  left: 33%;
+  width: 545px;
+  height: 225px;
+   z-index: 99999;
 }
 
 @keyframes glow{
@@ -542,6 +553,8 @@ img:hover{
 }
 .banner-cont .ban-propic:hover{
   background: url('../img/natty-2.png');
+  background-size: cover; 
+  background-repeat: no-repeat;
 }
 .banner-cont .ban-txt{
   margin-top: 10%; 
