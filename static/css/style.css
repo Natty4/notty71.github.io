@@ -1216,8 +1216,8 @@ img:hover{
     .address div{
       text-align: ;
     }
-    #starter{
-      displt:none;
+    .starter{
+      display:none;
   }
 }
 
