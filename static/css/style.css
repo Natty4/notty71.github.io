@@ -1216,11 +1216,15 @@ img:hover{
     .address div{
       text-align: ;
     }
-    .starter{
+    #starter{
       display:none;
   }
 }
-
+@media (max-width: 786px){
+  #starter{
+      display:none;
+  }
+}
 @media screen and (min-width: 1024px){
   .bd-grid{
     margin-left: auto;
