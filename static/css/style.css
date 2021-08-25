@@ -376,7 +376,9 @@ img:hover{
 }
 
 
-
+#starter{
+ display:block;
+}
 .starter{
   position: fixed;
   top: 0;
