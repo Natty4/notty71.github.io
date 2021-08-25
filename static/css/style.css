@@ -400,7 +400,8 @@ img:hover{
   justify-content: center;
   align-items: center;
   z-index: 1;
-  animation: glow 5s infinite;
+  transition: all 1s;
+  animation: glow 10s infinite;
 }
 .starter h1,h3{
   z-index: 99999;
@@ -410,7 +411,7 @@ img:hover{
 /*  top: 35%;*/
   font-weight: bold;
   transition: all 1s;
-  animation: glow 7s infinite;
+  animation: glow 10s infinite;
 }
 .starter div{
   text-align: center;
@@ -1215,6 +1216,9 @@ img:hover{
     .address div{
       text-align: ;
     }
+    #starter{
+      displt:none;
+  }
 }
 
 @media screen and (min-width: 1024px){
