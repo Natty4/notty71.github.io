@@ -1,5 +1,5 @@
 # Personal website
-## [find it on Github](https://notty71.github.io)
+## [find it on](http://natnaelkiflu.me/)
 Personal Webasite ASTU 2021
 js, css, HTML5 
 ![home](https://user-images.githubusercontent.com/56716832/128411320-418263c3-b465-4f7a-94ae-a73478bf4bdd.png)
