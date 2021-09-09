@@ -234,8 +234,7 @@ img:hover{
   background-image: url(../img/preload.gif);
   background-repeat: no-repeat;
   background-size: cover;
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
+  
 }
 #crteficate{
 
