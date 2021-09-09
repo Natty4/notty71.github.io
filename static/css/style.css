@@ -13,7 +13,7 @@
 
 
 :root{
-  --first-color: #334756; 
+  --first-color: #187BCD; 
   --second-color:  #333; #333; #FF5E0E;
   --txt-color: #FFF;
   --third-color: lightgray;
@@ -78,7 +78,7 @@ body{
   animation: bg-anim 3s ease-in-out infinite;
 
 
-  --first-color: lightslategray;
+  --first-color: #187BCD;
   --second-color: #082032;
   --lightgrey:#DBDBDB;
   --color-1: rgb(196, 220, 241);
@@ -230,6 +230,7 @@ img:hover{
 
 }
 #contact{
+  background-color: var(--second-color)
  background-image: url(../img/preload.gif);
   background-repeat: no-repeat;
   background-size: cover;
@@ -1480,7 +1481,7 @@ img:hover{
 
 body[data-theme="light"] {
 
-  --first-color: lightslategray;
+  --first-color: #187bcd;
   --second-color: #082032;
   --lightgrey:#DBDBDB;
   --color-1: rgb(196, 220, 241);
@@ -1488,7 +1489,7 @@ body[data-theme="light"] {
   --color-4: rgb(80, 82, 110);
 }
 body[data-theme="dark"] {
-  --first-color: radial-gradient(var(whitesmoke), black);
+  --first-color: radial-gradient(var(whitesmoke), #000000);
   --second-color: whitesmoke;
   --lightgrey: #334756
   --white: #c0c0c0;
